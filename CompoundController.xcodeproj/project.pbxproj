@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		038681E68429D85067E793E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E30B02AEC428A55C9A57A586 /* Foundation.framework */; };
-		0745479C1D8EFBC900346242 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0745479B1D8EFBC900346242 /* Matrix.swift */; };
-		0745479D1D8EFBC900346242 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0745479B1D8EFBC900346242 /* Matrix.swift */; };
 		074B27A21D8735A400E9215B /* MatrixMixer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074B27A11D8735A400E9215B /* MatrixMixer.swift */; };
 		074B27A31D8735A400E9215B /* MatrixMixer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074B27A11D8735A400E9215B /* MatrixMixer.swift */; };
 		074B27A51D8738B700E9215B /* MatrixMixerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074B27A41D8738B700E9215B /* MatrixMixerTests.swift */; };
@@ -22,8 +20,10 @@
 		074B27AF1D87416400E9215B /* GraphicEqualizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074B27AD1D87416400E9215B /* GraphicEqualizerTests.swift */; };
 		28925786FD9B5A6A53A30D79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E30B02AEC428A55C9A57A586 /* Foundation.framework */; };
 		45A0F223FCF1B40FA6D786D5 /* CompoundController.h in Headers */ = {isa = PBXBuildFile; fileRef = B9649509335A320A7D92C0D3 /* CompoundController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67C7E25D4EC6DACE36B79302 /* ArrayTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF7B7C56A6ACA3934CC25AB /* ArrayTools.framework */; };
 		6BEC971F721583FC5E73D010 /* CompoundController.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A29143F09DECF0ABEA1AA89E /* CompoundController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		81FCCB093B0A14F4FC34AD09 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948009905A82E7D9B2FBAEFC /* Cocoa.framework */; };
+		E66B1B4C9E8E28E8D0B01270 /* ArrayTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7528FD6D99A6136A8E0869A0 /* ArrayTools.framework */; };
 		E800A215C5C6162947F017BF /* CompoundController.h in Headers */ = {isa = PBXBuildFile; fileRef = B9649509335A320A7D92C0D3 /* CompoundController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E93065EEFA67D4BB2C874686 /* CompoundController.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 25326E4EE14FD354AF249062 /* CompoundController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		F4B0CAE88C94E20E691D26E1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948009905A82E7D9B2FBAEFC /* Cocoa.framework */; };
@@ -70,7 +70,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0745479B1D8EFBC900346242 /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Matrix.swift; path = CompoundController/Matrix.swift; sourceTree = "<group>"; };
 		074B27A11D8735A400E9215B /* MatrixMixer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatrixMixer.swift; path = CompoundController/MatrixMixer.swift; sourceTree = "<group>"; };
 		074B27A41D8738B700E9215B /* MatrixMixerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatrixMixerTests.swift; path = CompoundControllerTests/MatrixMixerTests.swift; sourceTree = "<group>"; };
 		074B27A71D873B7C00E9215B /* ContinuousController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContinuousController.swift; path = CompoundController/ContinuousController.swift; sourceTree = "<group>"; };
@@ -79,10 +78,12 @@
 		0D73F3ED0F716DDA476CBAEA /* CompoundControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompoundControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25326E4EE14FD354AF249062 /* CompoundController.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; path = CompoundController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4651C75A429123354544766B /* CompoundController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CompoundController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7528FD6D99A6136A8E0869A0 /* ArrayTools.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ArrayTools.framework; path = Carthage/Build/Mac/ArrayTools.framework; sourceTree = "<group>"; };
 		948009905A82E7D9B2FBAEFC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		9D65AFA63D4BFF94D4DBC637 /* CompoundControllerMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompoundControllerMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A29143F09DECF0ABEA1AA89E /* CompoundController.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; path = CompoundController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9649509335A320A7D92C0D3 /* CompoundController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CompoundController.h; path = CompoundController/CompoundController.h; sourceTree = "<group>"; };
+		BFF7B7C56A6ACA3934CC25AB /* ArrayTools.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ArrayTools.framework; path = Carthage/Build/iOS/ArrayTools.framework; sourceTree = "<group>"; };
 		C48DA3FCF2B219C5F0DDFB55 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = CompoundController/Info.plist; sourceTree = "<group>"; };
 		D9591C31536F71D18A16BD56 /* CompoundController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CompoundController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E30B02AEC428A55C9A57A586 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -111,6 +112,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81FCCB093B0A14F4FC34AD09 /* Cocoa.framework in Frameworks */,
+				E66B1B4C9E8E28E8D0B01270 /* ArrayTools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +121,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				038681E68429D85067E793E2 /* Foundation.framework in Frameworks */,
+				67C7E25D4EC6DACE36B79302 /* ArrayTools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				948009905A82E7D9B2FBAEFC /* Cocoa.framework */,
+				7528FD6D99A6136A8E0869A0 /* ArrayTools.framework */,
 			);
 			name = "OS X";
 			sourceTree = "<group>";
@@ -147,7 +151,6 @@
 			children = (
 				A42C9C8E656A0543E2F5BCD1 /* Supporting Files */,
 				074B27A11D8735A400E9215B /* MatrixMixer.swift */,
-				0745479B1D8EFBC900346242 /* Matrix.swift */,
 				074B27AA1D873D4A00E9215B /* GraphicEqualizer.swift */,
 				074B27A71D873B7C00E9215B /* ContinuousController.swift */,
 			);
@@ -198,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				E30B02AEC428A55C9A57A586 /* Foundation.framework */,
+				BFF7B7C56A6ACA3934CC25AB /* ArrayTools.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -257,6 +261,7 @@
 				A28009F1C83BE5D951837403 /* Sources */,
 				46667522EE3A8F778923A4AD /* Frameworks */,
 				E937C63AACBC6B43E1E2D885 /* Headers */,
+				C4051BD67BEE72E456B9124F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -292,6 +297,7 @@
 				5F02DE3EF56232F81E71C908 /* Sources */,
 				C04F93D024A04B15AFCCF2EB /* Frameworks */,
 				A9D300CFB586C14C11E2B381 /* Headers */,
+				652F183E2F76E84FB91F8A1F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -345,12 +351,42 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		652F183E2F76E84FB91F8A1F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/ArrayTools.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		C4051BD67BEE72E456B9124F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/Mac/ArrayTools.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5F02DE3EF56232F81E71C908 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0745479C1D8EFBC900346242 /* Matrix.swift in Sources */,
 				074B27A81D873B7C00E9215B /* ContinuousController.swift in Sources */,
 				074B27AB1D873D4A00E9215B /* GraphicEqualizer.swift in Sources */,
 				074B27A21D8735A400E9215B /* MatrixMixer.swift in Sources */,
@@ -361,7 +397,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0745479D1D8EFBC900346242 /* Matrix.swift in Sources */,
 				074B27A91D873B7C00E9215B /* ContinuousController.swift in Sources */,
 				074B27AC1D873D4A00E9215B /* GraphicEqualizer.swift in Sources */,
 				074B27A31D8735A400E9215B /* MatrixMixer.swift in Sources */,
@@ -418,6 +453,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/Mac";
 				FRAMEWORK_VERSION = A;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = CompoundController/Info.plist;
@@ -448,6 +484,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = CompoundController/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -477,6 +514,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = CompoundController/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -663,6 +701,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/Mac";
 				FRAMEWORK_VERSION = A;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = CompoundController/Info.plist;

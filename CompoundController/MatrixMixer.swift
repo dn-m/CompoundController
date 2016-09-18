@@ -6,41 +6,24 @@
 //
 //
 
+import ArrayTools
+
 public struct MatrixMixer {
     
-    //fileprivate var matrix: Matrix<Float>
-    fileprivate var values: [[Float]]
+    fileprivate var matrix: Matrix<Float>
     
-    public init(_ amountInputs: Int, _ amountOutputs: Int) {
-        precondition(amountInputs > 0 && amountOutputs > 0)
-        self.values = Array(
-            repeating: Array(
-                repeating: 0.0,
-                count: amountOutputs
-            ),
-            count: amountInputs
-        )
-        //self.matrix = Matrix(amountRows: <#T##UInt#>, amountColumns: <#T##UInt#>)
+    public init(_ amountInputs: UInt, _ amountOutputs: UInt) {
+        self.matrix = Matrix(amountRows: amountInputs, amountColumns: amountOutputs)
     }
     
-    public subscript(input: Int, output: Int) -> Float {
+    public subscript(input: UInt, output: UInt) -> Float {
         
         get {
-            return values[input][output]
+            return matrix[input, output]
         }
         
         set {
-            values[input][output] = newValue
+            matrix[input, output] = newValue
         }
     }
-}
-
-public func == (lhs: MatrixMixer, rhs: MatrixMixer) -> Bool {
-    guard lhs.values.count == rhs.values.count else { return false }
-    for i in lhs.values.indices {
-        if lhs.values[i] != rhs.values[i] {
-            return false
-        }
-    }
-    return true
 }
