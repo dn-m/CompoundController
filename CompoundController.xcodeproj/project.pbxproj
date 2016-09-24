@@ -243,6 +243,7 @@
 				F25EBD34331847CA073576CD /* Sources */,
 				1640BC7D6A571D5D7B6D3EA4 /* Frameworks */,
 				224017F58554615B13DB388E /* CopyFiles */,
+				076AFFE51D96F150002F7B7D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -261,7 +262,6 @@
 				A28009F1C83BE5D951837403 /* Sources */,
 				46667522EE3A8F778923A4AD /* Frameworks */,
 				E937C63AACBC6B43E1E2D885 /* Headers */,
-				C4051BD67BEE72E456B9124F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -279,6 +279,7 @@
 				FAF3E313896D47C37AC735ED /* Sources */,
 				339D93F131A62C0418E87E1B /* Frameworks */,
 				DBD521BDD3EE50CE78D3FAC9 /* CopyFiles */,
+				076AFFE41D96F13D002F7B7D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -297,7 +298,6 @@
 				5F02DE3EF56232F81E71C908 /* Sources */,
 				C04F93D024A04B15AFCCF2EB /* Frameworks */,
 				A9D300CFB586C14C11E2B381 /* Headers */,
-				652F183E2F76E84FB91F8A1F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -352,13 +352,13 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		652F183E2F76E84FB91F8A1F /* ShellScript */ = {
+		076AFFE41D96F13D002F7B7D /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/ArrayTools.framework",
+				"$(SRCROOT)/Carthage/Build/Mac/ArrayTools.framework",
 			);
 			outputPaths = (
 			);
@@ -366,13 +366,13 @@
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
-		C4051BD67BEE72E456B9124F /* ShellScript */ = {
+		076AFFE51D96F150002F7B7D /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/Mac/ArrayTools.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ArrayTools.framework",
 			);
 			outputPaths = (
 			);
